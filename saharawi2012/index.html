@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Campi Profughi Saharawi 2012</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			* {margin:0px;padding:0px}
+			body{background-color: #fff}
+			#container {width:1000px;margin:auto}
+			#container h1 {font-family:"Helvetica Neue";font-size:30px;margin-top:20px;color: #564b49}
+			#container h1 span {font-size:16px;color:grey}
+			#container h2 {font-size:14px;font-family:"Helvetica Neue";color:#564b49}
+			#container h2 a {color:#564b49}
+			#container h3 {font-family:Baskerville;color:grey;font-style:italic;font-size:20px;text-align:right;margin-top:20px}
+			#container img {margin-top:40px}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Campi Profughi Saharawi, Aprile 2012 <span>di Matteo Galli</span></h1>
+			<h2>Portfolio realizzato durante il workshop di fotografia sociale tenuto da <a href="http://www.giuliodimeo.it">Giulio Di Meo</a> in collaborazione con <a href="http://www.arciculturaesviluppo.it/">ARCS - Culture Solidali</a></h2>
+			<h3>Qui è nata la primavera araba.<br/>Saharawi, il piccolo popolo del deserto. (Noam Chomsky)</h3>	
+			<img src="pictures/matteo_galli_000.jpg" data-bn="pictures/matteo_galli_000.jpg" data-colours="pictures/matteo_galli_colours_000.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_001.jpg" data-bn="pictures/matteo_galli_001.jpg" data-colours="pictures/matteo_galli_colours_001.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_002.jpg" data-bn="pictures/matteo_galli_002.jpg" data-colours="pictures/matteo_galli_colours_002.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_003.jpg" data-bn="pictures/matteo_galli_003.jpg" data-colours="pictures/matteo_galli_colours_003.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_004.jpg" data-bn="pictures/matteo_galli_004.jpg" data-colours="pictures/matteo_galli_colours_004.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_005.jpg" data-bn="pictures/matteo_galli_005.jpg" data-colours="pictures/matteo_galli_colours_005.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_006.jpg" data-bn="pictures/matteo_galli_006.jpg" data-colours="pictures/matteo_galli_colours_006.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_007.jpg" data-bn="pictures/matteo_galli_007.jpg" data-colours="pictures/matteo_galli_colours_007.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_008.jpg" data-bn="pictures/matteo_galli_008.jpg" data-colours="pictures/matteo_galli_colours_008.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_009.jpg" data-bn="pictures/matteo_galli_009.jpg" data-colours="pictures/matteo_galli_colours_009.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_010.jpg" data-bn="pictures/matteo_galli_010.jpg" data-colours="pictures/matteo_galli_colours_010.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_011.jpg" data-bn="pictures/matteo_galli_011.jpg" data-colours="pictures/matteo_galli_colours_011.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_012.jpg" data-bn="pictures/matteo_galli_012.jpg" data-colours="pictures/matteo_galli_colours_012.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_013.jpg" data-bn="pictures/matteo_galli_013.jpg" data-colours="pictures/matteo_galli_colours_013.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_014.jpg" data-bn="pictures/matteo_galli_014.jpg" data-colours="pictures/matteo_galli_colours_014.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_015.jpg" data-bn="pictures/matteo_galli_015.jpg" data-colours="pictures/matteo_galli_colours_015.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_016.jpg" data-bn="pictures/matteo_galli_016.jpg" data-colours="pictures/matteo_galli_colours_016.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_017.jpg" data-bn="pictures/matteo_galli_017.jpg" data-colours="pictures/matteo_galli_colours_017.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_018.jpg" data-bn="pictures/matteo_galli_018.jpg" data-colours="pictures/matteo_galli_colours_018.jpg" width="1000" height="667"/>
+			<img src="pictures/matteo_galli_019.jpg" data-bn="pictures/matteo_galli_019.jpg" data-colours="pictures/matteo_galli_colours_019.jpg" width="1000" height="667"/>
+		</div>
+		<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-30884762-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script  type="text/javascript">
+			$(document).ready(function() {
+				$("img").each(function(index,image){
+					$("<img src='"+$(image).data('colours')+"' />");
+				});
+			
+				$("img").mouseover(function( event ){ 
+					$(event.target).attr( 'src', $(event.target).data('colours') );
+				});
+				
+				$("img").mouseleave(function( event ){ 
+					$(event.target).attr( 'src', $(event.target).data('bn') );
+				});
+			});
+		</script>
+	</body>
+</html>
